@@ -21,7 +21,10 @@ Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "BlueYonder.Companion.Host.A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{85C03D0A-4881-4137-AE41-2E85140EE1B1}"
 	ProjectSection(SolutionItems) = preProject
-		.nuget\packages.config = .nuget\packages.config
+        .nuget\NuGet.Config = .nuget\NuGet.Config
+        .nuget\NuGet.exe = .nuget\NuGet.exe
+        .nuget\NuGet.targets = .nuget\NuGet.targets
+        .nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
 Global
