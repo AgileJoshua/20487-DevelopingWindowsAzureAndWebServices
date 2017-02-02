@@ -6,11 +6,11 @@ cd %~dp0
 powershell -NonInteractive -Command "Set-ExecutionPolicy unrestricted"
 
 @Echo Configuring machine's certificates
-"..\..\..\tools\certmgr.exe" -del -c -n "Client" -s -r LocalMachine My > NUL
-"..\..\..\tools\certmgr.exe" -del -c -n "Server" -s -r LocalMachine My > NUL
-"..\..\..\tools\certmgr.exe" -del -c -n "Server" -s -r LocalMachine TrustedPeople > NUL
-"..\..\..\tools\certmgr.exe" -del -c -n "Blue Yonder Airlines Root CA" -s -r LocalMachine My > NUL
-"..\..\..\tools\certmgr.exe" -del -c -n "Blue Yonder Airlines Root CA" -s -r LocalMachine Root > NUL
+certmgr.exe -del -c -n "Client" -s -r LocalMachine My > NUL
+certmgr.exe -del -c -n "Server" -s -r LocalMachine My > NUL
+certmgr.exe -del -c -n "Server" -s -r LocalMachine TrustedPeople > NUL
+certmgr.exe -del -c -n "Blue Yonder Airlines Root CA" -s -r LocalMachine My > NUL
+certmgr.exe -del -c -n "Blue Yonder Airlines Root CA" -s -r LocalMachine Root > NUL
 
 certutil -f -p 1 -importpfx ..\..\..\certs\BlueYonderAirlinesRootCA.pfx > NUL
 certutil -f -p 1 -importpfx ..\..\..\certs\client.pfx > NUL
