@@ -12,7 +12,7 @@ function ZipFiles{
     $filesOutput = "allfiles-v" + $versionData + ".zip"
     $docsOutput = "lab_instructions-v" + $versionData + ".zip"
     Write-Zip ($filesDirectory + "*") -OutputPath $filesOutput -IncludeEmptyDirectories
-    Write-Zip ($docsDirectory + "*.docx") -OutputPath $docsOutput
+    Write-Zip @(($docsDirectory + "*.docx"),($docsDirectory + "*.pdf"))  -OutputPath $docsOutput
 }
 
 function CloseWord{
@@ -64,7 +64,7 @@ foreach($file in Get-ChildItem $docsInputDirectory -Recurse | Where-Object {$_.E
 }
 
 ' Copy AllFiles '
-' Copy-Item $filesInputDirectory –Destination $outputDirectory -Recurse -Container '
+ Copy-Item $filesInputDirectory –Destination $outputDirectory -Recurse -Container 
 
 ' Compress AllFiles & Lab Instructions '
 ZipFiles $filesOutputDirectory $docsOutputDirectory $version
