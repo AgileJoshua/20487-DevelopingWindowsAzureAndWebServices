@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQueryClient", "JQueryClient\JQueryClient.csproj", "{C5749E33-BF00-4310-BF95-40711A79CEC4}"
@@ -6,8 +6,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{85C03D0A-4881-4137-AE41-2E85140EE1B1}"
 	ProjectSection(SolutionItems) = preProject
         .nuget\NuGet.Config = .nuget\NuGet.Config
-        .nuget\NuGet.exe = .nuget\NuGet.exe
-        .nuget\NuGet.targets = .nuget\NuGet.targets
         .nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
@@ -35,4 +33,5 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
+
 
