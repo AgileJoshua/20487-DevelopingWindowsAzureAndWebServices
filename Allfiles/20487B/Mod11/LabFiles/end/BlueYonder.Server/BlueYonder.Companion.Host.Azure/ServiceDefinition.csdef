@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ServiceDefinition name="BlueYonder.Companion.Host.Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2012-10.1.8">
+<ServiceDefinition name="BlueYonder.Companion.Host.Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2015-04.2.6">
   <WebRole name="BlueYonder.Companion.Host" vmsize="Small">
     <Sites>
       <Site name="Web">
@@ -14,7 +14,6 @@
       <InputEndpoint name="Endpoint2" protocol="https" port="443" certificate="BlueYonderCompanionSSL" />
     </Endpoints>
     <Imports>
-      <Import moduleName="Diagnostics" />
     </Imports>
     <Certificates>
       <Certificate name="BlueYonderCompanionCertificate" storeLocation="LocalMachine" storeName="My" />
@@ -25,6 +24,7 @@
       <Setting name="ACS.IssuerName" />
       <Setting name="ACS.Realm" />
       <Setting name="ACS.SigningKey" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
     </ConfigurationSettings>
   </WebRole>
 </ServiceDefinition>
