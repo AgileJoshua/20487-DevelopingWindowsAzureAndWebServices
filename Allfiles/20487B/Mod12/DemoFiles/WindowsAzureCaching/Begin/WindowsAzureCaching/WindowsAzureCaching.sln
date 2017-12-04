@@ -7,8 +7,8 @@ Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "MvcApplication1.Azure", "Mv
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{85C03D0A-4881-4137-AE41-2E85140EE1B1}"
 	ProjectSection(SolutionItems) = preProject
-        .nuget\NuGet.Config = .nuget\NuGet.Config
-        .nuget\packages.config = .nuget\packages.config
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
 Global

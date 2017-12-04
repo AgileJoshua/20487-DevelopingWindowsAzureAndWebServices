@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueYonder.Companion.Controllers", "BlueYonder.Companion.Controllers\BlueYonder.Companion.Controllers.csproj", "{062691E0-9C27-4119-BAE1-13844C50A96B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueYonder.Companion.Host", "BlueYonder.Companion.Host\BlueYonder.Companion.Host.csproj", "{93D53022-E457-423E-B91C-1B793B3C3D66}"
@@ -19,8 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueYonder.Companion.Storag
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9929D052-2328-4602-AF42-67F284AC5E1F}"
 	ProjectSection(SolutionItems) = preProject
-        .nuget\NuGet.Config = .nuget\NuGet.Config
-        .nuget\packages.config = .nuget\packages.config
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueYonder.FrequentFlyerService.Contracts", "BlueYonder.Server.FrequentFlyer.Contracts\BlueYonder.FrequentFlyerService.Contracts.csproj", "{245B57E5-1F48-46E3-B1E5-CB4BACF039FA}"
@@ -30,45 +32,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueYonder.Companion.WNS", "BlueYonder.Companion.WNS\BlueYonder.Companion.WNS.csproj", "{53645A7A-8EF9-4769-BE05-5D86399E54C7}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 12
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-	
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = BlueYonder.Companion.Entities\\BlueYonder.Companion.Entities.csproj
-		SccProjectName1 = BlueYonder.Companion.Entities
-		SccLocalPath1 = BlueYonder.Companion.Entities
-		SccProjectUniqueName2 = BlueYonder.Entities\\BlueYonder.Entities.csproj
-		SccProjectName2 = BlueYonder.Entities
-		SccLocalPath2 = BlueYonder.Entities
-		SccProjectUniqueName3 = BlueYonder.Companion.Entities.Mappers\\BlueYonder.Companion.Entities.Mappers.csproj
-		SccProjectName3 = BlueYonder.Companion.Entities.Mappers
-		SccLocalPath3 = BlueYonder.Companion.Entities.Mappers
-		SccProjectUniqueName4 = BlueYonder.DataAccess.Interfaces\\BlueYonder.DataAccess.Interfaces.csproj
-		SccProjectName4 = BlueYonder.DataAccess.Interfaces
-		SccLocalPath4 = BlueYonder.DataAccess.Interfaces
-		SccProjectUniqueName5 = BlueYonder.DataAccess\\BlueYonder.DataAccess.csproj
-		SccProjectName5 = BlueYonder.DataAccess
-		SccLocalPath5 = BlueYonder.DataAccess
-		SccProjectUniqueName6 = BlueYonder.Companion.Controllers\\BlueYonder.Companion.Controllers.csproj
-		SccProjectName6 = BlueYonder.Companion.Controllers
-		SccLocalPath6 = BlueYonder.Companion.Controllers
-		SccProjectUniqueName7 = BlueYonder.Companion.Host\\BlueYonder.Companion.Host.csproj
-		SccProjectName7 = BlueYonder.Companion.Host
-		SccLocalPath7 = BlueYonder.Companion.Host
-		SccProjectUniqueName8 = BlueYonder.Companion.Storage\\BlueYonder.Companion.Storage.csproj
-		SccProjectName8 = BlueYonder.Companion.Storage
-		SccLocalPath8 = BlueYonder.Companion.Storage
-		SccProjectUniqueName9 = BlueYonder.Server.FrequentFlyer.Contracts\\BlueYonder.FrequentFlyerService.Contracts.csproj
-		SccProjectName9 = BlueYonder.Server.FrequentFlyer.Contracts
-		SccLocalPath9 = BlueYonder.Server.FrequentFlyer.Contracts
-		SccProjectUniqueName10 = BlueYonder.BookingService.Contracts\\BlueYonder.BookingService.Contracts.csproj
-		SccProjectName10 = BlueYonder.BookingService.Contracts
-		SccLocalPath10 = BlueYonder.BookingService.Contracts
-		SccProjectUniqueName11 = BlueYonder.Companion.WNS\\BlueYonder.Companion.WNS.csproj
-		SccProjectName11 = BlueYonder.Companion.WNS
-		SccLocalPath11 = BlueYonder.Companion.WNS
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
@@ -195,4 +158,3 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
-

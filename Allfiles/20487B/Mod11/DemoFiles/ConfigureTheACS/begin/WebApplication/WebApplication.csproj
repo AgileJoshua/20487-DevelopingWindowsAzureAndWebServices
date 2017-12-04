@@ -20,10 +20,6 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
-    <SccProjectName>%24/ILT/Courses/ENG/20487A/Source/Allfiles/Mod11/DemoFiles/ConfigureTheACS/begin/WebApplication</SccProjectName>
-    <SccLocalPath>.</SccLocalPath>
-    <SccAuxPath>https://vstf-us-wa-11.partners.extranet.microsoft.com:8443/tfs/mslearning</SccAuxPath>
-    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

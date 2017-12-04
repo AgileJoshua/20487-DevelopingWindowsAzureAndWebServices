@@ -248,21 +248,21 @@ namespace BlueYonder.Companion.Client
         {
             var travelerInfo = new SettingsCommand("TravelerInfo", Accessories.resourceLoader.GetString("TravelerInfo"), (handler) =>
             {
-                var settings = new SettingsFlyout();
+                var settings = new Common.SettingsFlyout();
                 settings.ShowFlyout(new TravelerInfoControl());
             });
             args.Request.ApplicationCommands.Add(travelerInfo);
 
             var about = new SettingsCommand("About", Accessories.resourceLoader.GetString("About"), (handler) =>
             {
-                var settings = new SettingsFlyout();
+                var settings = new Common.SettingsFlyout();
                 settings.ShowFlyout(new AboutControl());
             });
             args.Request.ApplicationCommands.Add(about);
 
             var options = new SettingsCommand("Options", Accessories.resourceLoader.GetString("Options"), (handler) =>
             {
-                var settings = new SettingsFlyout();
+                var settings = new Common.SettingsFlyout();
                 settings.ShowFlyout(new OptionsControl());
             });
             args.Request.ApplicationCommands.Add(options);
