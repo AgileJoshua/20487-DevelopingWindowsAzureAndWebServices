@@ -1,28 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "BlobStorageEmulator", "BlobsStorageEmulator\BlobStorageEmulator.ccproj", "{0080B8EB-8E6F-461A-85B6-6703880E4142}"
-EndProject
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6B059180-5C6B-405E-BE1F-7AD282032774}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 	EndProjectSection
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "BlobStorageEmulator", "BlobsStorageEmulator\BlobStorageEmulator.ccproj", "{0080B8EB-8E6F-461A-85B6-6703880E4142}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorage.Web", "BlobStorage.Web\BlobStorage.Web.csproj", "{03AD94F1-476C-4AAD-A3C4-D9F1DA15892C}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-	
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = BlobStorage.Web\\BlobStorage.Web.csproj
-		SccProjectName1 = BlobStorage.Web
-		SccLocalPath1 = BlobStorage.Web
-		SccProjectUniqueName2 = BlobsStorageEmulator\\BlobStorageEmulator.ccproj
-		SccProjectName2 = BlobsStorageEmulator
-		SccLocalPath2 = BlobsStorageEmulator
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -41,4 +31,3 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
-

@@ -1,6 +1,5 @@
 ﻿using Microsoft.ServiceBus;
 using Microsoft.ServiceBus.Messaging;
-using Microsoft.WindowsAzure;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
