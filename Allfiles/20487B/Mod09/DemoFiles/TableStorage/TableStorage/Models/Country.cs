@@ -1,4 +1,5 @@
-﻿using Microsoft.WindowsAzure.Storage.Table.DataServices;
+﻿using Microsoft.WindowsAzure.Storage.Table;
+using Microsoft.WindowsAzure.Storage.Table.DataServices;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -8,7 +9,7 @@ using System.Web;
 
 namespace TableStorage
 {
-    public partial class Country : TableServiceEntity
+    public partial class Country : TableEntity
     {
         public Country(string name, string continent)
         {
