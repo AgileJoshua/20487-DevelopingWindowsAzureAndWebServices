@@ -10,7 +10,7 @@ namespace BlueYonder.Companion.Shared
     {
         public static string BaseUri
         {
-            get { return "http://{CloudService}.cloudapp.net/"; }
+            get { return "http://20487ja123.azurewebsites.net/"; }
         }
 
         public static string GetLocationsUri

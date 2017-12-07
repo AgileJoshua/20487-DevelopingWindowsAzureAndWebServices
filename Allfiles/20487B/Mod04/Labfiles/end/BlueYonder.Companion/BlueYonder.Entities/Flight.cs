@@ -26,5 +26,6 @@ namespace BlueYonder.Entities
         public virtual Location Destination { get; set; }
 
         virtual public ICollection<FlightSchedule> Schedules { get; set; }
+
     }
 }

@@ -12,10 +12,12 @@ namespace BlueYonder.DataAccess
     {
         public TravelCompanionContext(string connectionName) : base(connectionName)
         {
+            Database.SetInitializer(new Companion.Host.FlightScheduleDatabaseInitializer());
         }
 
         public TravelCompanionContext() : this("TravelCompanion")
         {
+
         }
 
         public DbSet<Location> Locations { get; set; }

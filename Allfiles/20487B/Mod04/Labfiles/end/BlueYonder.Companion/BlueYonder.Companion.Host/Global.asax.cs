@@ -17,7 +17,6 @@ namespace BlueYonder.Companion.Host
     {
         protected void Application_Start()
         {
-            (new FlightScheduleDatabaseInitializer()).InitializeDatabase(new TravelCompanionContext());
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
